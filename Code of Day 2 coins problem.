@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int T;
+	cin>>T;
+	while(1<=T)	{
+		int X=5,Y=10,Z=0,p,q;
+		cin>>p>>q>>Z;
+		p=p*X;
+		q=q*Y;
+		int r=p+q;
+		cout<<r/Z;
+		}
+	return 0;
+}
