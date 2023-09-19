@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int T;
+	cout<<"Enter The No. Of Taste cases"<<endl;
+	cin>>T;
+	while(1<=T){
+		int fac=1,p;
+		cin>>p;
+		for(int i=1;i<=p;i++){
+			fac=fac*i;
+			
+		}
+		cout<<"Factorial:"<<fac<<endl;
+		T--;
+		
+	}
+	return 0;
+	
+}
