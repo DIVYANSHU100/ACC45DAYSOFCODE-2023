@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+
+ 
+int 
+main () 
+{
+  
+ 
+int T;
+  
+ 
+cin >> T;
+  
+ 
+int i = 0;
+  
+ 
+while (i < T)
+    
+    {
+      
+ 
+int X, Y;
+      
+// X IS NO OF the student
+// Y IS NO OF chairs
+	cin >> X >> Y;
+      
+ 
+ 
+if (X - Y <= 0)
+	{
+	  
+cout << 0 << endl;
+	
+}
+      
+      else
+	{
+	  
+cout << X - Y << endl;
+	
+}
+      
+i++;
+    
+ 
+ 
+}
+
+ 
+}
