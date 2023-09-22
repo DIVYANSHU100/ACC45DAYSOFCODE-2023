@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int T;
+	cin>>T;
+	while(1<=T){
+		int n;
+		cin>>n;
+		int hoops=(n+1)/2; 
+		cout<<hoops;
+		T--;
+	}
+	return 0;
+}
