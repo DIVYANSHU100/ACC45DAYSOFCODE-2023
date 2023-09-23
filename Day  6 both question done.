@@ -1,0 +1,66 @@
+// Beginners level
+#include<iostream>
+using namespace std;
+int main(){
+	int T;
+	cin>>T;
+	while(0<T){
+		float n; //Here n is no. of people.
+		float m=4; //Here m is maximum limit of a car.
+		cin>>n;
+		int x=n/m;
+		float y=n/m;
+		if(x==y){
+			cout<<x;
+		}
+		else {
+			x++;
+			cout<<x;
+		}
+		
+		T--;
+	}
+	return 0;
+}
+
+
+// intermediate level
+
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int t;
+  
+cin >> t;
+  
+while (0 < t)
+    {
+      
+int N,count=0;
+// N IS NO OF digits
+// d IS NO which is to be checked
+cin>>N;
+char d[N];
+cin>>d;
+for(int i=0;i<N;i++){
+    if(d[i]=='5'||d[i]=='0'){
+        cout<<"yes";
+        break;
+    }
+    count++;
+}
+if(count==N){
+    cout<<"No";
+}
+
+      
+t--;
+      
+
+}
+
+}
