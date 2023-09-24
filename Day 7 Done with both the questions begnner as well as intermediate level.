@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int T;
+  
+cin >> T;
+  
+while (0 < T)
+    {
+      
+int x, y;		//x is following and y is followers
+      cin >> x >> y;
+      
+if (x > y * 10)
+	{
+	  
+cout << "Yes";
+	
+}
+      
+      else
+	{
+	  
+cout << "No";
+	
+}
+      
+ 
+T--;
+    
+}
+  
+return 0;
+
+}
