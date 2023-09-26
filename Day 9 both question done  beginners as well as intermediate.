@@ -1,0 +1,85 @@
+// Beginner level
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int T;
+  
+cin >> T;
+  
+while (1 <= T)
+    {
+      
+int x, y;
+      
+cin >> x >> y;		//Here x is rent of cooler and y is price of cooler 
+      if (y > x)
+	{
+	  
+cout << y / x;
+	
+}
+      
+      else
+	{
+	  
+cout << "0";
+	
+}
+      
+T--;
+    
+}
+  
+return 0;
+
+}
+
+
+
+
+
+      // intermediate level
+
+
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int T;
+  
+cin >> T;
+  
+while (1 <= T)
+    {
+      
+int A1, A2, A3, A4, A5, p;	//Here A1,A2,A3,A4,A5 is 5 no. of days in a week and p is late work productivity
+      cin >> A1 >> A2 >> A3 >> A4 >> A5 >> p;
+      
+if (120 >= (A1 + A2 + A3 + A4 + A5) * p) //Here 120 is possible no. of hours in 5 Days
+	{
+	  
+cout << "NO";
+	
+}
+      
+      else
+	{
+	  
+cout << "YES";
+	
+}
+      
+T--;
+    
+}
+  
+return 0;
+
+}
