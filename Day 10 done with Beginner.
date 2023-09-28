@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int T, count = 0, p = -1;
+  
+cin >> T;
+  
+while (1 <= T)
+    {
+      
+int N, M;		//N is run and M is over in cricket match;
+      cin >> N >> M;
+      
+if (N <= M * 36)
+	{
+	  
+cout << "yes";
+	
+}
+      
+      else
+	{
+	  
+cout << "No";
+	
+}
+      
+ 
+T--;
+    
+}
+  
+return 0;
+
+}
