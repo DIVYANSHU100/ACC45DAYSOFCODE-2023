@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+
+int
+main ()
+{
+  
+int T;
+  
+cin >> T;
+  
+while (1 <= T)
+    {
+      
+int x, y, z, s;
+      
+cin >> x >> y >> z;
+      
+s = y / x;
+      
+if (z >= s)
+	{
+	  
+cout << z - s;
+	
+}
+      
+      else
+	{
+	  
+cout << "0";
+	
+}
+      
+ 
+ 
+T--;
+    
+}
+  
+return 0;
+
+}
